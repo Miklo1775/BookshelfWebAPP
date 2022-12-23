@@ -2,6 +2,41 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-image: linear-gradient(#eefe27, black);
+}
 p {
   margin: 5px;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: black;
+  font-weight: bold;
+  color: #eefe27;
+}
+input::placeholder {
+  font-weight: bold;
+  color: #eefe27;
+}
+
+.add-book {
+  border: none;
+  background-color: transparent;
+  color: #eefe27;
+}
+.add {
+  border: none;
+}
+button {
+  background-color: transparent;
+  font-weight: bold;
+  color: #eefe27;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: red;
 }
