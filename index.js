@@ -39,7 +39,7 @@ class Book {
     li.style.listStyle = "none";
     const btnBook = document.createElement("button");
     btnBook.innerHTML = `
-    <p style='color: blue'>${this.title}`;
+    <p style='color: blue'>Title: ${this.title}`;
     li.appendChild(btnBook);
     btnBook.style.border = "1px solid gray";
     btnBook.style.width = "50%";
