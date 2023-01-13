@@ -5,6 +5,12 @@
 body {
   background-image: linear-gradient(#eefe27, black);
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 p {
   margin: 5px;
 }
@@ -28,6 +34,7 @@ input::placeholder {
 }
 .add {
   border: none;
+  height: 100%;
 }
 button {
   background-color: transparent;
@@ -39,4 +46,44 @@ button {
 
 p {
   color: red;
+}
+
+.comment-div {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 150px;
+  margin: 10px;
+  overflow: auto;
+  /* scrollbar-base-color: transparent; */
+}
+
+/* .comment-btn {
+  height: 75px;
+  width: 50%;
+  background-color: transparent;
+} */
+
+.comment-input {
+  width: 100%;
+  height: 100%;
+  /* word-wrap: break-word; */
+}
+
+.add-book-div {
+  height: 100%;
+  background-color: transparent;
+}
+/* li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px;
+} */
+
+*::-webkit-scrollbar {
+  background-color: transparent;
 }
